@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ol>
+        <li>One</li>
+        <li style="color: red;">Two</li>
+        <li>Three</li>
+    </ol>
+</body>
+</html>
+
+
+<!-- 
+There are four broad categories which we look at when we determining the overall importance of a CSS rule.
+And these categories are (4)POSITION, (3)SPECIFICITY, (3)TYPE, and (1)IMPORTANCE.
+
+1. Position := 
+    li{
+        color: red;
+        color: blue;   // first becomes red the becomes blue immediately, so last position applied.
+
+
+2. Specificity := 
+    refers to how specific a selector is in terms of the elements the you are applying the CSS rule to.
+
+    <li id='first-id' class="first-class" draggable>
+
+    li {color: blue;}               //least specificity
+    .first-class {color:red;}       // more specific
+    li[draggable] {color: purple;}  // more specific (attribute)
+    #first-id {color: orange;}      // most specific
+
+
+3. Type:= three different ways to apply css to a html
+           a) External Style Sheet (linking external sheet)               //least important
+           b) Internal CSS (using style element)                          
+           c) Inline CSS (using opening tag of an actual html element.)   //most important
+
+
+4. Keyword: (!important):=
+    
+    color:red;
+    color: green !important;
+
+
+    } -->

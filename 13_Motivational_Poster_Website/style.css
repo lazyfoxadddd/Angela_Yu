@@ -1,0 +1,33 @@
+#hanuman {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+body {
+    background-color: black;
+    
+}
+
+#text {
+    color: aquamarine;
+    text-transform: uppercase;
+    text-align: center; 
+    
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img{
+    width: 540px;
+    border: 5px solid white;
+}
+
+ 

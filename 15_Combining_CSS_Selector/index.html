@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <h2>Monday</h2>
+    <div class="box">
+        <p class="done">Do these things today</p>
+        <ul class="list">
+            <li>Wash Clothes</li>
+            <li class="done">Read</li>
+            <li class="done">Maths Question</li>
+        </ul>
+    </div>
+
+    <ul>
+        <p class="done">Other Items</p>
+
+    </ul>
+    <p>The best prearation for tomorrow is doing your best today.</p>
+</body>
+</html>
+
+
+<!-- 
+
+### There are different ways to combine CSS selector:=
+
+1. Group Rule=
+
+    selector, selector{
+        color: blueviolet;
+    }
+
+    h1, h2 {
+        color: blueviolet;
+    } 
+        
+    
+2. Child = Apply to direct child of left side. (one level nesting)
+
+    selector > selector {
+        color: firebrick;   
+    }
+    
+    .box > .done{           here .box is parent and .done is direct child 
+        color: firebrick;
+    }
+    
+3. Descendent:= Apply to a descendent of left side   (many level nesting)
+
+    selector selector {
+        color: blue;
+    }
+    
+        
+    .box li{
+        color: blue;
+    }
+        
+4, Chaining:= Apply where all selectors are true. (super specificity)
+  
+    selectorselector {
+        color: seagreen;
+    }
+
+    h1#title.big.heading {
+        color: green;
+    }
+
+    
+    
+    
+    -->
